@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JioSaavn – Music & Podcasts</title>
+<style>
+  /* --- BASIC RESET --- */
+  * {margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  body  {background:#fafafa;color:#222;}
+  a     {text-decoration:none;color:inherit;}
+  button{cursor:pointer;border:none;}
+
+  /* --- NAV --- */
+  header{
+    background:#2bc5b4;          /* current JioSaavn teal */
+    color:#fff; padding:12px 32px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  header .logo{font-weight:700;font-size:1.4rem;}
+  nav a{margin:0 10px;font-size:.9rem;opacity:.9;}
+  nav a:hover{opacity:1;}
+
+  /* --- HERO --- */
+  .hero{
+    background:#fff url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80")
+            right center/320px no-repeat;
+    padding:60px 32px;min-height:360px;display:flex;align-items:center;
+  }
+  .hero-content{max-width:420px;}
+  .hero h1{font-size:2rem;margin-bottom:16px;}
+  .hero p {font-size:1rem;line-height:1.5;margin-bottom:24px;color:#555;}
+  .hero input{
+      width:100%;padding:10px;border:1px solid #ccc;border-radius:4px;
+      margin-bottom:16px;
+  }
+  .hero button{
+      background:#2bc5b4;color:#fff;padding:10px 24px;border-radius:4px;
+      font-weight:600;
+  }
+
+  /* --- FOOTER --- */
+  footer{padding:24px 32px;font-size:.8rem;color:#666;text-align:center;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">JioSaavn</div>
+    <nav>
+      <a href="#">Music</a>
+      <a href="#">Podcasts</a>
+      <a href="#">Go Pro</a>
+      <a href="#">Sign in</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+     <div class="hero-content">
+        <h1>All your music. 100% free.</h1>
+        <p>Stream millions of songs, radio & podcasts. Listen online or download offline.</p>
+        <input type="text" placeholder="Search for songs, artists…" />
+        <button>Get Started Free</button>
+     </div>
+  </section>
+
+  <footer>&copy; 2025 Saavn Media Pvt Ltd</footer>
+</body>
+</html>
